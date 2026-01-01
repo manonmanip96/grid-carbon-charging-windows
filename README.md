@@ -17,4 +17,4 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-python src/recommend.py --energy_kwh 20 --power_kw 7
+python -m src.recommend --energy_kwh 20 --power_kw 7
